@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recordScreen"
+    android:orientation="vertical">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/firstGraphView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="180dp"
+            android:visibility="visible" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/listeningBackButton2"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/buttomimage"
+            android:onClick="triggerStopRecording"
+
+
+            android:text="Stop Recording" />
+
+</android.support.v7.widget.LinearLayoutCompat>

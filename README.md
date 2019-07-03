@@ -1,2 +1,2 @@
-# Spyme
-Android project to upload and download audio files from Firebase
+# AndroidApplication
+Application Read and Write audio files to google Firebase

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spyme</string>
+    <string name="facebook_app_id">2061959207438655</string>
+    <string name="fb_login_protocol_scheme">fb2061959207438655</string>
+    <string name="title_activity_password_screen">passwordScreen</string>
+    <string name="title_activity_option_selection">optionSelection</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
